@@ -1,0 +1,92 @@
+    #div {
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #grid {
+        display: grid;
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-columns: repeat(5, 1fr);
+        width: 600px;
+        height: 600px;
+        border-radius: 20px;
+        align-content: center;
+        margin: 0px;
+        padding-bottom: 5px;
+    }
+    
+    #grid>div {
+        border: 5px solid midnightblue;
+        border-radius: 20px;
+        padding-top: 50px;
+        text-align: center;
+        margin: 3px;
+        font-family: monospace;
+        font-size: xx-large;
+    }
+    
+    #screen {
+        border: 4px solid midnightblue;
+        width: 600px;
+        display: flex;
+        height: 100px;
+        border-radius: 20px;
+        margin: 0px;
+        justify-content: flex-end;
+        flex-direction: column;
+        align-items: flex-end;
+        font-family: monospace;
+        overflow: hidden;
+        letter-spacing: 1px;
+        background: url('calc.jpg') no-repeat;
+        background-size: cover;
+        box-shadow: 0px 5px 50px rgba(0, 0, 0, 0.5);
+    }
+    
+    #grid>div:hover {
+        background: url('calc.jpg');
+        background-size: contain;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    }
+    
+    #scrdiv {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        width: 600px;
+        height: 40px;
+        font-size: 30px;
+    }
+    
+    #scrdiv2 {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        width: 600px;
+        height: 60px;
+        font-size: 40px;
+    }
+    
+    #container {
+        background: linear-gradient(45deg, gray, transparent);
+        border: 10px solid midnightblue;
+        border-radius: 20px;
+        height: 800px;
+        width: 620px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    
+    #picture {
+        width: 600px;
+        height: 70px;
+        font-family: Lobster, cursive;
+        Font-size: 50px;
+        font-style: oblique;
+        font-variant: petite-caps;
+        font-weight: inherit;
+        text-decoration: underline;
+    }
